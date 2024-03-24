@@ -11,7 +11,7 @@ export const StyledNav = styled.nav`
     img {
       display: block;
       width: 150px;
-      padding-right: 20px;
+      margin-right: 20px;
     }
   `}
 `;
