@@ -22,7 +22,7 @@ export default function OurTeam() {
             <h2>Our Team</h2>
             <p>
                 For exceptional tech recruitment, trust in Hirewire. Whether
-                it's permanent or interim staff, we seamlessly oversee the
+                it&apos;s permanent or interim staff, we seamlessly oversee the
                 entire process, from crafting job descriptions to streamlining
                 onboarding. Our experienced team excels across diverse
                 industries and sectors, consistently identifying the ideal
