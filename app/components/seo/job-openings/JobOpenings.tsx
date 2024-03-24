@@ -1,6 +1,6 @@
 import { PageWrap } from '../../uikit';
 import Job from './Job';
-import { Flex } from '../../uikit';
+import { StyledJobOpenings } from './JobOpenings.styled';
 
 const CURRENT_JOBS = [
     {
@@ -33,11 +33,11 @@ export default function JobOpenings() {
     return (
         <PageWrap limit="md">
             <h2>Latest Job Openings</h2>
-            <Flex align="center" justify="start" gap={'20px'}>
+            <StyledJobOpenings align="center" justify="start" gap={'20px'}>
                 {CURRENT_JOBS.map((props, index) => (
                     <Job key={index} {...props} />
                 ))}
-            </Flex>
+            </StyledJobOpenings>
         </PageWrap>
     );
 }

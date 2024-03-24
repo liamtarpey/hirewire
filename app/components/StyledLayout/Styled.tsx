@@ -3,6 +3,7 @@
 import StyledComponentsRegistry from './styled-registry';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './theme';
+import { GlobalStyle } from './globalStyles';
 
 export default function StyledLayout({
     children,
@@ -11,7 +12,10 @@ export default function StyledLayout({
 }) {
     return (
         <StyledComponentsRegistry>
-            <ThemeProvider theme={theme}>{children}</ThemeProvider>
+            <ThemeProvider theme={theme}>
+                <GlobalStyle />
+                {children}
+            </ThemeProvider>
         </StyledComponentsRegistry>
     );
 }
