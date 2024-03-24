@@ -2,8 +2,6 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 
 // Components
 import { PageWrap, Button, Flex } from '../uikit';
@@ -12,12 +10,11 @@ import { PageWrap, Button, Flex } from '../uikit';
 import { StyledNav, StyledLogo } from './Nav.styled';
 
 export default function Nav() {
-    const { push } = useRouter();
     return (
         <StyledNav>
             <PageWrap>
                 <Flex align="center" justify="space-between">
-                    <StyledLogo onClick={void push('/')}>
+                    <StyledLogo>
                         <Flex align="center" justify="start">
                             <Image
                                 src="/logos/hirewire-logo.png"

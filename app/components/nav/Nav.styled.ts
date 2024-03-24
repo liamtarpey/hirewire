@@ -16,7 +16,7 @@ export const StyledNav = styled.nav`
   `}
 `;
 
-export const StyledLogo = styled.a<{onClick: void}>`
+export const StyledLogo = styled.a`
   display: block;
   width: 170px;
   font-size: 1.5rem;
