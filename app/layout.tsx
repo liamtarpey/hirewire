@@ -9,6 +9,10 @@ import Footer from './components/footer/Footer';
 /** Lato Google font */
 const lato = Lato({ subsets: ['latin'], weight: ['400', '700', '900'] });
 
+/** Vercel observability */
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 export const metadata: Metadata = {
     title: 'Hirewire',
     description: 'Hiring for the future',
@@ -26,6 +30,10 @@ export default function RootLayout({
                     <Nav />
                     {children}
                     <Footer />
+
+                    {/* Vercel observability */}
+                    <Analytics />
+                    <SpeedInsights />
                 </StyledLayout>
             </body>
         </html>

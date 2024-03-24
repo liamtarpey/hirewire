@@ -11,32 +11,32 @@ const colors = {
     purple: "#635E87",
     yellow: "#CFCAA8",
 };
-  
+
 const space = {
-  xs: "4px",
-  sm: "8px",
-  md: "16px",
-  lg: "24px",
-  xl: "32px",
+    xs: "4px",
+    sm: "8px",
+    md: "16px",
+    lg: "24px",
+    xl: "32px",
 };
 
 const fontSizes = {
-  sm: "14px",
-  md: "16px",
-  lg: "24px",
-  xl: "48px",
-  "2xl": "64px",
+    sm: "14px",
+    md: "16px",
+    lg: "24px",
+    xl: "48px",
+    "2xl": "64px",
 };
 
 const fontWeights = {
-  400: 400,
-  500: 500,
-  700: 700,
+    400: 400,
+    500: 500,
+    700: 700,
 };
 
 const breakpoints = ['31.25rem', '50rem', '75rem'] as const;
 
-  const tokens = {
+const tokens = {
     colors,
     space,
     fontSizes,
@@ -49,9 +49,9 @@ const breakpoints = ['31.25rem', '50rem', '75rem'] as const;
     // shadows,
     // zIndices,
     breakpoints,
-  };
+};
   
-  export const theme = {
+export const theme = {
     ...tokens,
-  } as const;
+} as const;
   
