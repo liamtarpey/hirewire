@@ -6,12 +6,12 @@ import Image from 'next/image';
 const TEAM_MEMBERS = [
     {
         name: 'Jane Sumbilla',
-        position: 'Managing Director',
+        position: 'Talent Acquisition Specialist',
         src: '/team/jane.jpeg',
     },
     {
         name: 'Liam Tarpey',
-        position: 'Technical consultant',
+        position: 'Technical Consultant',
         src: '/team/liam.png',
     },
 ];

@@ -10,21 +10,21 @@ const CURRENT_JOBS = [
         url: 'https://hirewire.breezy.hr/p/26c20456d1a101-platform-developer-devops',
     },
     {
-        name: 'Mobile Engineer - iOS',
-        company: 'Hirewire',
-        location: 'Los Angeles, CA, USA',
-        url: 'https://hirewire.breezy.hr/p/e195f6a3fe7101-mobile-engineer-ios',
-    },
-    {
         name: 'Senior IT Systems Architect',
         company: 'Hirewire',
-        location: 'Melville, NY, USA (Hybrid)',
+        location: 'Melville, NY (Hybrid)',
         url: 'https://hirewire.breezy.hr/p/72ff5c3dd29b01-senior-it-systems-architect',
     },
     {
-        name: 'Android Developer',
+        name: 'Mobile Engineer - iOS',
         company: 'Hirewire',
-        location: 'Los Angeles, CA, USA',
+        location: 'Los Angeles, CA',
+        url: 'https://hirewire.breezy.hr/p/e195f6a3fe7101-mobile-engineer-ios',
+    },
+    {
+        name: 'Mobile Engineer - Android',
+        company: 'Hirewire',
+        location: 'Los Angeles, CA',
         url: 'https://hirewire.breezy.hr/p/ed6d5c681d2201-android-developer',
     },
 ];
