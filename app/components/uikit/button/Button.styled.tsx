@@ -9,7 +9,6 @@ export const StyledA = styled.a`
     font-weight: inherit;
     line-height: inherit;
     padding: 0;
-    min-width: 200px;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 14px;
@@ -37,7 +36,6 @@ export const StyledButton = styled.button`
     font-weight: inherit;
     line-height: inherit;
     padding: 0;
-    min-width: 200px;
     text-transform: uppercase;
     font-size: 14px;
     padding: 8px 12px;

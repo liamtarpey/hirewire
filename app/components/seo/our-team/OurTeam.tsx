@@ -1,15 +1,18 @@
 import React from 'react';
 import { PageWrap, Flex } from '../../uikit';
 import { StyledPersona } from './OurTeam.styled';
+import Image from 'next/image';
 
 const TEAM_MEMBERS = [
     {
         name: 'Jane Sumbilla',
         position: 'Managing Director',
+        src: '/team/jane.jpeg',
     },
     {
         name: 'Liam Tarpey',
         position: 'Technical consultant',
+        src: '/team/liam.png',
     },
 ];
 
@@ -28,9 +31,9 @@ export default function OurTeam() {
                 expertly managed.
             </p>
             <Flex align="center" justify="space-around">
-                {(TEAM_MEMBERS || []).map(({ name, position }, index) => (
+                {(TEAM_MEMBERS || []).map(({ name, position, src }, index) => (
                     <StyledPersona key={index}>
-                        <img src="https://placedog.net/200/200" alt={name} />
+                        <Image src={src} alt={name} width={140} height={140} />
                         <h2>{name}</h2>
                         <p>{position}</p>
                     </StyledPersona>

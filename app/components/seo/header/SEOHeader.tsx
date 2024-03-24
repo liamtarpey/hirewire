@@ -9,9 +9,9 @@ import { StyledHeader, StyledHeaderText } from './SEOHeaderStyled';
 export default function SEOHeader() {
     return (
         <StyledHeader>
-            <PageWrap>
+            <PageWrap limit="md">
                 <StyledHeaderText>
-                    Smart hires, happy companies.
+                    Seamless Tech Talent Pairing.
                 </StyledHeaderText>
             </PageWrap>
         </StyledHeader>

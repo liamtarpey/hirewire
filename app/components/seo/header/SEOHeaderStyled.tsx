@@ -12,6 +12,5 @@ export const StyledHeaderText = styled.h1`
     padding: 100px 0;
     color: ${colors.black};
     line-height: 60px;
-    text-align: center;
   `}
 `;
