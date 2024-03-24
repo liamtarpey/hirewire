@@ -5,7 +5,7 @@ export const PageWrap = ({
     limit,
 }: {
     children: React.ReactNode;
-    limit?: 'sm' | 'md' | 'lg';
+    limit?: 'sm' | 'md' | 'lg' | undefined;
 }) => {
     return <StyledPageWrap limit={limit}>{children}</StyledPageWrap>;
 };
