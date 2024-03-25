@@ -53,26 +53,26 @@ export const Flex = styled('div')<FlexProps>`
         theme: { breakpoints },
         display = 'flex',
         direction = 'row',
-        justify = 'flex-start',
-        align = 'stretch',
+        $justify = 'flex-start',
+        $align = 'stretch',
         flexValue,
-        flexWrap,
+        $flexWrap,
         height,
         fullWidth,
         fullHeight,
         center,
-        gap,
+        $gap,
         maxWidth,
     }) => `
         ${setStyles(display, 'display', breakpoints)}
         ${setStyles(direction, 'flex-direction', breakpoints)}
-        ${setStyles(justify, 'justify-content', breakpoints)}
-        ${setStyles(align, 'align-items', breakpoints)}
-        ${gap ? setStyles(gap, 'gap', breakpoints) : ''}
+        ${setStyles($justify, 'justify-content', breakpoints)}
+        ${setStyles($align, 'align-items', breakpoints)}
+        ${$gap ? setStyles($gap, 'gap', breakpoints) : ''}
         ${maxWidth ? setStyles(maxWidth, 'max-width', breakpoints) : ''};
         ${center ? setCenter() : ''}
         ${flexValue ? `flex: ${flexValue};` : ''}
-        ${flexWrap ? `flex-wrap: ${flexWrap};` : ''}
+        ${$flexWrap ? `flex-wrap: ${$flexWrap};` : ''}
         ${fullWidth ? 'width: 100%;' : ''}
         ${fullHeight ? 'height: 100%;' : height || ''}
     `}

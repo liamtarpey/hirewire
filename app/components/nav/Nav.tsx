@@ -13,9 +13,9 @@ export default function Nav() {
     return (
         <StyledNav>
             <PageWrap>
-                <Flex align="center" justify="space-between">
+                <Flex $align="center" $justify="space-between">
                     <StyledLogo>
-                        <Flex align="center" justify="start">
+                        <Flex $align="center" $justify="start">
                             <Image
                                 src="/logos/hirewire-logo.png"
                                 alt="Hirewire Logo"

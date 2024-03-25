@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <StyledFooter>
             <PageWrap>
-                <Flex align="center" justify="space-between">
+                <Flex $align="center" $justify="space-between">
                     <p>&copy; {new Date().getFullYear()} - Hirewire Ltd</p>
                     <Button href="mailto:info@hirewire.uk">Get in touch</Button>
                 </Flex>

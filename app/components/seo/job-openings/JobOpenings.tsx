@@ -31,13 +31,13 @@ const CURRENT_JOBS = [
 
 export default function JobOpenings() {
     return (
-        <PageWrap limit="md">
+        <PageWrap $limit="md">
             <h2>Latest Job Openings</h2>
             <StyledJobOpenings
-                align="stretch"
-                justify="start"
-                gap={'20px'}
-                flexWrap="wrap"
+                $align="stretch"
+                $justify="start"
+                $gap={'20px'}
+                $flexWrap="wrap"
             >
                 {CURRENT_JOBS.map((props, index) => (
                     <Job key={index} {...props} />

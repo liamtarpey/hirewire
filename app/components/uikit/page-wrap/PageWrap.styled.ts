@@ -10,10 +10,10 @@ const getLimit = (size: string) => {
     }
 }
 
-export const StyledPageWrap = styled.div<{limit: 'sm' | 'md' | 'lg' | undefined}>`
-    ${({limit, theme: {space}}) => `
+export const StyledPageWrap = styled.div<{$limit: 'sm' | 'md' | 'lg' | undefined}>`
+    ${({$limit, theme: {space}}) => `
         padding: ${space.md};
-        max-width: ${limit ? getLimit(limit) : 'auto'};
+        max-width: ${$limit ? getLimit($limit) : 'auto'};
         margin: auto;
     `}
 `;

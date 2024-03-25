@@ -38,9 +38,9 @@ export interface FlexProps {
     /** flex-direction */
     direction?: DirectionType | DirectionType[];
     /** justify-content */
-    justify?: JustifyType | JustifyType[];
+    $justify?: JustifyType | JustifyType[];
     /** align-items */
-    align?: AlignType | AlignType[];
+    $align?: AlignType | AlignType[];
     /** flex */
     flexValue?: FlexValueType;
     /** full width */
@@ -50,11 +50,11 @@ export interface FlexProps {
     /** height */
     height?: HeightType;
     /** flex-wrap */
-    flexWrap?: FlexWrapType;
+    $flexWrap?: FlexWrapType;
     /** center align */
     center?: boolean;
     /** gap */
-    gap?: string | string[];
+    $gap?: string | string[];
     /** max-width */
     maxWidth?: string | string[];
     /** onClick handler */

@@ -9,7 +9,7 @@ import { StyledHeader, StyledHeaderText } from './SEOHeaderStyled';
 export default function SEOHeader() {
     return (
         <StyledHeader>
-            <PageWrap limit="md">
+            <PageWrap $limit="md">
                 <StyledHeaderText>
                     Seamless Tech-Talent Pairing.
                 </StyledHeaderText>

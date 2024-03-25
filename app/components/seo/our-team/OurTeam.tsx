@@ -18,7 +18,7 @@ const TEAM_MEMBERS = [
 
 export default function OurTeam() {
     return (
-        <PageWrap limit="md">
+        <PageWrap $limit="md">
             <h2>Our Team</h2>
             <p>
                 For exceptional tech recruitment, trust in Hirewire. Whether
@@ -30,7 +30,7 @@ export default function OurTeam() {
                 attention to business growth, knowing your recruitment needs are
                 expertly managed.
             </p>
-            <Flex align="center" justify="space-around">
+            <Flex $align="center" $justify="space-around">
                 {(TEAM_MEMBERS || []).map(({ name, position, src }, index) => (
                     <StyledPersona key={index}>
                         <Image src={src} alt={name} width={140} height={140} />
