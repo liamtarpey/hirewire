@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledHeader = styled.div`
     ${({ theme: { colors } }) => `
-    background: ${colors.white};
+    background: ${colors.purple};
     margin-top: 52px;
   `}
 `;
@@ -10,7 +10,7 @@ export const StyledHeader = styled.div`
 export const StyledHeaderText = styled.h1`
     ${({ theme: { colors, space } }) => `
     padding: 100px 0;
-    color: ${colors.black};
+    color: ${colors.white};
     line-height: 60px;
   `}
 `;

@@ -11,7 +11,7 @@ export default function SEOHeader() {
         <StyledHeader>
             <PageWrap limit="md">
                 <StyledHeaderText>
-                    Seamless Tech Talent Pairing.
+                    Seamless Tech-Talent Pairing.
                 </StyledHeaderText>
             </PageWrap>
         </StyledHeader>

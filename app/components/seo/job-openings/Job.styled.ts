@@ -6,7 +6,7 @@ export const StyledJob = styled.a`
         border-radius: 4px;
         padding: 20px;
         text-align: left;
-        width: 200px;
+        width: 250px;
         color: ${colors.black};
         text-decoration: none;
 

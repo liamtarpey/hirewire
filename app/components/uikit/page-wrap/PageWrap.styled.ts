@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 const getLimit = (size: string) => {
     if (size === 'sm') {
-        return '780px';
+        return '720px';
     } else if (size === 'md') {
-        return '960px';
+        return '840px';
     } else {
         return '1200px';
     }
