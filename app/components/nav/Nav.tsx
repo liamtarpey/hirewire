@@ -17,6 +17,7 @@ export default function Nav() {
                     <StyledLogo>
                         <Flex $align="center" $justify="start">
                             <Image
+                                priority
                                 src="/logos/hirewire-logo.png"
                                 alt="Hirewire Logo"
                                 width={150}
