@@ -50,11 +50,11 @@ export interface FlexProps {
     /** height */
     height?: HeightType;
     /** flex-wrap */
-    $flexWrap?: FlexWrapType;
+    flexWrap?: FlexWrapType;
     /** center align */
     center?: boolean;
     /** gap */
-    $gap?: string | string[];
+    gap?: string | string[];
     /** max-width */
     maxWidth?: string | string[];
     /** onClick handler */

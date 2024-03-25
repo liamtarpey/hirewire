@@ -36,8 +36,8 @@ export default function JobOpenings() {
             <StyledJobOpenings
                 $align="stretch"
                 $justify="start"
-                $gap={'20px'}
-                $flexWrap="wrap"
+                gap={'20px'}
+                flexWrap="wrap"
             >
                 {CURRENT_JOBS.map((props, index) => (
                     <Job key={index} {...props} />
