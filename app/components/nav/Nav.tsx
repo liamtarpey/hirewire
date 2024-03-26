@@ -35,9 +35,7 @@ export default function Nav() {
 
                     {/* Links */}
                     {/* <div>
-                        <Link href="/terms-and-conditions">
-                            Terms & Conditions
-                        </Link>
+                        <Link href="/services">Services</Link>
                     </div> */}
 
                     {/* CTA */}
