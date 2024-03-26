@@ -24,6 +24,7 @@ export const StyledJob = styled.a`
         }
 
         &:hover {
+            text-decoration: none;
             box-shadow: 1px 8px 20px ${colors.midgrey};
         }
     `}

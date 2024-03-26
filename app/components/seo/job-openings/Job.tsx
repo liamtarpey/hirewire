@@ -22,7 +22,7 @@ export default function Job({
                 height={40}
             />
             <h4>{name}</h4>
-            <p>{company}</p>
+            {/* <p>{company}</p> */}
             <p className="job-location">{location}</p>
             <Badge>New</Badge>
         </StyledJob>
