@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const StyledHeader = styled.div`
     ${({ theme: { colors } }) => `
     background: ${colors.purple};
-    margin-top: 52px;
   `}
 `;
 

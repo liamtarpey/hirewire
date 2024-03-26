@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {NAV_FIXED_HEIGHT} from '../../nav/Nav';
 
 const getLimit = (size: string) => {
     if (size === 'sm') {
@@ -10,10 +11,10 @@ const getLimit = (size: string) => {
     }
 }
 
-export const StyledPageWrap = styled.div<{$limit: 'sm' | 'md' | 'lg' | undefined}>`
+export const StyledPageWrap = styled.div<{$limit: 'sm' | 'md' | 'lg' | undefined;}>`
     ${({$limit, theme: {space}}) => `
         padding: ${space.md};
-        max-width: ${$limit ? getLimit($limit) : 'auto'};
+        max-width: ${$limit ? getLimit($limit) : 'initial'};
         margin: auto;
     `}
 `;

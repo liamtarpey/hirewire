@@ -16,17 +16,10 @@ export const StyledNav = styled.nav`
   `}
 `;
 
-export const StyledLogo = styled.a`
+export const StyledLogo = styled.div`
   display: block;
   width: 170px;
   font-size: 1.5rem;
   font-weight: 700;
   text-align: left;
-  cursor: pointer;
-  // max-width: 230px;
-  // img {
-  //   display: block;
-  //   width: 100%;
-  //   height: auto;
-  // }
 `;

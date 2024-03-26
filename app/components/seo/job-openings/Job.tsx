@@ -1,4 +1,4 @@
-import { Badge } from '../../uikit/badge/Badge';
+import { Badge } from '../../uikit';
 import { StyledJob } from './Job.styled';
 import Image from 'next/image';
 

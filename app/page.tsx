@@ -5,13 +5,17 @@ import SEOHeader from './components/seo/header/SEOHeader';
 import JobOpenings from './components/seo/job-openings/JobOpenings';
 import OurTeam from './components/seo/our-team/OurTeam';
 
+import { PageContainer } from './components/uikit';
+
 export default function Home() {
     return (
         <main>
-            <SEOHeader />
-            <JobOpenings />
-            <OurTeam />
-            <Contact />
+            <PageContainer>
+                <SEOHeader />
+                <JobOpenings />
+                <OurTeam />
+                <Contact />
+            </PageContainer>
         </main>
     );
 }

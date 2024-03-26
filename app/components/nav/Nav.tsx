@@ -2,33 +2,47 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 // Components
-import { PageWrap, Button, Flex } from '../uikit';
+import { PageWrap, Flex } from '../uikit';
+import ContactUsCta from '../contact-us-cta/ContactUsCta';
 
 // Styled
 import { StyledNav, StyledLogo } from './Nav.styled';
+
+/** Fixed height value of nav in px */
+export const NAV_FIXED_HEIGHT = '74';
 
 export default function Nav() {
     return (
         <StyledNav>
             <PageWrap>
-                <Flex $align="center" $justify="space-between">
+                <Flex $align="center" $justify="start">
                     <StyledLogo>
-                        <Flex $align="center" $justify="start">
-                            <Image
-                                priority
-                                src="/logos/hirewire-logo.png"
-                                alt="Hirewire Logo"
-                                width={150}
-                                height={42}
-                            />
-                        </Flex>
+                        <Link href="/">
+                            <Flex $align="center" $justify="start">
+                                <Image
+                                    priority
+                                    src="/logos/hirewire-logo.png"
+                                    alt="Hirewire Logo"
+                                    width={150}
+                                    height={42}
+                                />
+                            </Flex>
+                        </Link>
                     </StyledLogo>
-                    <div>
-                        <Button href="mailto:info@hirewire.uk">
-                            Get in touch
-                        </Button>
+
+                    {/* Links */}
+                    {/* <div>
+                        <Link href="/terms-and-conditions">
+                            Terms & Conditions
+                        </Link>
+                    </div> */}
+
+                    {/* CTA */}
+                    <div style={{ marginLeft: 'auto' }}>
+                        <ContactUsCta />
                     </div>
                 </Flex>
             </PageWrap>
