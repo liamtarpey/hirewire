@@ -6,3 +6,9 @@ export const StyledFooter = styled.footer`
         color: ${colors.darkgrey};
     `}
 `;
+
+export const StyledFooterText = styled.div`
+    ${({theme: {fontSizes}}) => `
+        font-size: ${fontSizes.sm};
+    `}
+`;
