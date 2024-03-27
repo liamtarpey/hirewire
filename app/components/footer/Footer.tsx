@@ -16,7 +16,7 @@ export default function Footer() {
                             &copy; {new Date().getFullYear()} - Hirewire Ltd.
                             All rights reserved.
                         </p>
-                        <p>Registered in England: Company No: 15087755</p>
+                        <p>Registered in England. Company No: 15087755</p>
                         {/* <p>Registered office: 48 Gaumont Tower, London, E83BQ, UK</p> */}
                         {/* <p>VAT No: </p> */}
                     </StyledFooterText>
