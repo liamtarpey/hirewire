@@ -1,7 +1,7 @@
 import { PageWrap } from '../../uikit';
 import Job from './Job';
 import { StyledJobOpenings } from './JobOpenings.styled';
-import fetchSignIn from '@/app/data/fetchSignIn';
+// import fetchSignIn from '@/app/data/fetchSignIn';
 
 const CURRENT_JOBS = [
     {
@@ -31,8 +31,8 @@ const CURRENT_JOBS = [
 ];
 
 export default async function JobOpenings() {
-    const signIn = await fetchSignIn();
-    console.log('reqs:', signIn);
+    // const signIn = await fetchSignIn();
+    // console.log('reqs:', signIn);
 
     return (
         <PageWrap $limit="md">
