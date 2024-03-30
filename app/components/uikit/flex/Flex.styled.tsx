@@ -56,7 +56,7 @@ export const Flex = styled('div')<FlexProps>`
         $justify = 'flex-start',
         $align = 'stretch',
         flexValue,
-        flexWrap,
+        flexwrap,
         height,
         fullWidth,
         fullHeight,
@@ -72,7 +72,7 @@ export const Flex = styled('div')<FlexProps>`
         ${maxWidth ? setStyles(maxWidth, 'max-width', breakpoints) : ''};
         ${center ? setCenter() : ''}
         ${flexValue ? `flex: ${flexValue};` : ''}
-        ${flexWrap ? `flex-wrap: ${flexWrap};` : ''}
+        ${flexwrap ? `flex-wrap: ${flexwrap};` : ''}
         ${fullWidth ? 'width: 100%;' : ''}
         ${fullHeight ? 'height: 100%;' : height || ''}
     `}

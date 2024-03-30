@@ -1,6 +1,7 @@
 import { PageWrap } from '../../uikit';
 import Job from './Job';
 import { StyledJobOpenings } from './JobOpenings.styled';
+import fetchSignIn from '@/app/data/fetchSignIn';
 
 const CURRENT_JOBS = [
     {
@@ -29,7 +30,10 @@ const CURRENT_JOBS = [
     },
 ];
 
-export default function JobOpenings() {
+export default async function JobOpenings() {
+    const signIn = await fetchSignIn();
+    console.log('reqs:', signIn);
+
     return (
         <PageWrap $limit="md">
             <h2>Latest Job Openings</h2>
@@ -37,7 +41,7 @@ export default function JobOpenings() {
                 $align="stretch"
                 $justify="start"
                 gap={'20px'}
-                flexWrap="wrap"
+                flexwrap="wrap"
             >
                 {CURRENT_JOBS.map((props, index) => (
                     <Job key={index} {...props} />

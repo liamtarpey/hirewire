@@ -50,7 +50,7 @@ export interface FlexProps {
     /** height */
     height?: HeightType;
     /** flex-wrap */
-    flexWrap?: FlexWrapType;
+    flexwrap?: FlexWrapType;
     /** center align */
     center?: boolean;
     /** gap */
