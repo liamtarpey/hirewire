@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
+import {HireWireTheme} from './theme.styled';
 
-export const GlobalStyle = createGlobalStyle`
+export const GlobalStyle = createGlobalStyle<{theme: HireWireTheme}>`
     ${({theme: {colors}}) => `
         /** CSS Normalize */
         /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
