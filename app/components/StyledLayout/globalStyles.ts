@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import {HireWireTheme} from './theme.styled';
+import {HireWireTheme} from './theme.interface';
 
 export const GlobalStyle = createGlobalStyle<{theme: HireWireTheme}>`
     ${({theme: {colors}}) => `

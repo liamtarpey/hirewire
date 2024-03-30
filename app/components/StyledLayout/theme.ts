@@ -1,6 +1,6 @@
 'use client';
 
-import {HireWireTheme} from './theme.styled';
+import {HireWireTheme} from './theme.interface';
 
 const colors = {
     black: "#222222",
@@ -36,7 +36,7 @@ const fontWeights = {
     700: 700,
 };
 
-const breakpoints = ['31.25rem', '50rem', '75rem'] as const;
+const breakpoints = ['31.25rem', '50rem', '75rem'];
 
 const tokens = {
     colors,
@@ -51,10 +51,10 @@ const tokens = {
     // shadows,
     // zIndices,
     breakpoints,
-} as const;
+};
 
 export const theme: HireWireTheme = {
     ...tokens,
-} as const;
+};
 
   
