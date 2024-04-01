@@ -1,9 +1,14 @@
 import { PageWrap } from '../../uikit';
 import Job from './Job';
 import { StyledJobOpenings } from './JobOpenings.styled';
-// import fetchSignIn from '@/app/data/fetchSignIn';
 
 const CURRENT_JOBS = [
+    {
+        name: 'Senior OS Engineer',
+        company: 'Hirewire',
+        location: 'Los Angeles, CA',
+        url: 'https://hirewire.breezy.hr/p/12da327efdc101-senior-os-engineer',
+    },
     {
         name: 'Platform Engineer',
         company: 'Hirewire',
@@ -17,23 +22,14 @@ const CURRENT_JOBS = [
         url: 'https://hirewire.breezy.hr/p/72ff5c3dd29b01-senior-it-systems-architect',
     },
     {
-        name: 'Mobile Engineer - iOS',
+        name: 'Freelance Recruiter / Sourcer',
         company: 'Hirewire',
-        location: 'Los Angeles, CA',
-        url: 'https://hirewire.breezy.hr/p/e195f6a3fe7101-mobile-engineer-ios',
-    },
-    {
-        name: 'Mobile Engineer - Android',
-        company: 'Hirewire',
-        location: 'Los Angeles, CA',
-        url: 'https://hirewire.breezy.hr/p/ed6d5c681d2201-android-developer',
+        location: 'Philippines - Remote',
+        url: 'https://hirewire.breezy.hr/p/a093b90c3ab801-freelance-recruiter-sourcer',
     },
 ];
 
 export default async function JobOpenings() {
-    // const signIn = await fetchSignIn();
-    // console.log('reqs:', signIn);
-
     return (
         <PageWrap $limit="md">
             <h2>Latest Job Openings</h2>
