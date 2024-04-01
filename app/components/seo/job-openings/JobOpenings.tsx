@@ -1,6 +1,4 @@
-'use client';
-
-import { PageWrap } from '../../uikit';
+import { PageWrap, Loader } from '../../uikit';
 import { StyledJobOpenings } from './JobOpenings.styled';
 import Script from 'next/script';
 

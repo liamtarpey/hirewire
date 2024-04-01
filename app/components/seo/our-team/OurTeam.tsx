@@ -7,7 +7,7 @@ const TEAM_MEMBERS = [
     {
         name: 'Jane Sumbilla',
         position: 'Talent Acquisition Specialist',
-        src: '/team/jane.jpeg',
+        src: '/team/jane.png',
     },
     {
         name: 'Liam Tarpey',
