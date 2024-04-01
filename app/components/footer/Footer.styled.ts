@@ -12,7 +12,7 @@ export const StyledFooter = styled.footer`
 `;
 
 export const StyledFooterLogo = styled.div`
-    margin-bottom: 20px;
+    margin: 10px 0 20px 0;
 `;
 
 export const StyledFooterLinks = styled(Flex)`
