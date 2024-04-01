@@ -11,11 +11,35 @@ export const StyledFooter = styled.footer`
     `}
 `;
 
-export const StyledFooterBottom = styled(Flex)`
+export const StyledFooterLogo = styled.div`
+    margin-bottom: 20px;
+`;
+
+export const StyledFooterLinks = styled(Flex)`
     @media(max-width:700px) {
         display: block;
-    }`
-;
+    }
+    
+    h3 {
+        margin: 5px 0 10px 0;
+    }
+`;
+
+export const StyledFooterBottom = styled(Flex)`
+    ${({theme: {colors}}) => `
+        border-top: 1px solid ${colors.midgrey};
+        margin-top: 10px;
+        @media(max-width:700px) {
+            display: block;
+        }
+    `}
+`;
+
+export const StyledFooterUL = styled.ul`
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 5px 0;
+`;
 
 export const StyledFooterText = styled.div`
     ${({theme: {fontSizes}}) => `
