@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import { Button, PageWrap } from '../../uikit';
 import { StyledContact } from './Contact.styled';

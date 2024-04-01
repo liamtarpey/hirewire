@@ -1,5 +1,3 @@
-'use client';
-
 import { PageWrap } from '../../uikit';
 import Job from './Job';
 import { StyledJobOpenings } from './JobOpenings.styled';
