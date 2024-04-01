@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { PageWrap, Flex } from '../../uikit';
 import { StyledPersona } from './OurTeam.styled';

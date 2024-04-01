@@ -1,7 +1,7 @@
 'use client';
 
 import styled from "styled-components";
-import { Flex } from '../uikit/';
+import { Flex } from '../uikit';
 
 
 export const StyledFooter = styled.footer`

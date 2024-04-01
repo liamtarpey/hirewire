@@ -1,5 +1,3 @@
-'use client';
-
 import Contact from './components/seo/contact/Contact';
 import SEOHeader from './components/seo/header/SEOHeader';
 import JobOpenings from './components/seo/job-openings/JobOpenings';

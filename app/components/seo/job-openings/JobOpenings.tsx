@@ -1,3 +1,5 @@
+'use client';
+
 import { PageWrap } from '../../uikit';
 import Job from './Job';
 import { StyledJobOpenings } from './JobOpenings.styled';
@@ -35,7 +37,7 @@ const CURRENT_JOBS = [
     },
 ];
 
-export default async function JobOpenings() {
+export default function JobOpenings() {
     return (
         <PageWrap $limit="md">
             <h2>Latest Job Openings</h2>

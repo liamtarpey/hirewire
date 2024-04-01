@@ -1,8 +1,10 @@
+'use client';
+
 import React from 'react';
 import { Button, PageWrap } from '../../uikit';
 import { StyledContact } from './Contact.styled';
 import ContactUsCta from '../../contact-us-cta/ContactUsCta';
-import ContactUsEmailLink from '../../../components/contact-us-email-link/ContactUsEmailLink';
+import ContactUsEmailLink from '../../contact-us-email-link/ContactUsEmailLink';
 
 export default function Contact() {
     return (

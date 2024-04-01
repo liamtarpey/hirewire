@@ -4,7 +4,7 @@ import {
     StyledFooterBottom,
     StyledFooterText,
 } from './Footer.styled';
-import { PageWrap, Flex } from '../uikit/';
+import { PageWrap, Flex } from '../uikit';
 import ContactUsCta from '../contact-us-cta/ContactUsCta';
 import Link from 'next/link';
 
@@ -16,34 +16,35 @@ export default function Footer() {
                     <h3>Legal & Miscellaneous</h3>
                     <ul>
                         <li>
-                            <Link href="/terms-and-conditions">
+                            <Link href="/legal/terms-and-conditions">
                                 Terms & Conditions
                             </Link>
                         </li>
                         <li>
-                            <Link href="/terms-of-service">
+                            <Link href="/legal/terms-of-service">
                                 Terms of Service
                             </Link>
                         </li>
                         <li>
-                            <Link href="/privacy-policy">Privacy Policy</Link>
-                        </li>
-                        <li>
-                            <Link href="/cookie-policy">Cookie Policy</Link>
-                        </li>
-                        <li>
-                            <Link href="/gdpr-compliance-statement">
-                                GDPR Compliance Statement
+                            <Link href="/legal/privacy-policy-and-data-protection">
+                                Privacy Policy & Data Protection
                             </Link>
                         </li>
                         <li>
-                            <Link href="/disclaimer">Disclaimer</Link>
+                            <Link href="/legal/refund-policy">
+                                Refund Policy
+                            </Link>
                         </li>
                         <li>
-                            <Link href="/refund-policy">Refund Policy</Link>
+                            <Link href="/legal/disclaimer">Disclaimer</Link>
                         </li>
                         <li>
-                            <Link href="/accessibility-statement">
+                            <Link href="/legal/cookie-policy">
+                                Cookie Policy
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/legal/accessibility-statement">
                                 Accessibility Statement
                             </Link>
                         </li>

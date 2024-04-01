@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-import { PageWrap, RichText } from '../components/uikit';
-import { PageContainer } from '../components/uikit';
-import ContactUsEmailLink from '../components/contact-us-email-link/ContactUsEmailLink';
+import { PageWrap, RichText } from '../../components/uikit';
+import { PageContainer } from '../../components/uikit';
+import ContactUsEmailLink from '../../components/contact-us-email-link/ContactUsEmailLink';
 
 export default function RefundPolicy() {
     return (

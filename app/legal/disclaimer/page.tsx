@@ -1,6 +1,6 @@
-import ContactUsEmailLink from '../components/contact-us-email-link/ContactUsEmailLink';
-import { PageWrap, RichText } from '../components/uikit';
-import { PageContainer } from '../components/uikit';
+import ContactUsEmailLink from '../../components/contact-us-email-link/ContactUsEmailLink';
+import { PageWrap, RichText } from '../../components/uikit';
+import { PageContainer } from '../../components/uikit';
 
 export default function Disclaimer() {
     return (
