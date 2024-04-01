@@ -13,7 +13,7 @@ export default function Footer() {
         <StyledFooter>
             <PageWrap $limit="md">
                 <div>
-                    <h4>Legal</h4>
+                    <h3>Legal & Miscellaneous</h3>
                     <ul>
                         <li>
                             <Link href="/terms-and-conditions">
@@ -38,6 +38,14 @@ export default function Footer() {
                         </li>
                         <li>
                             <Link href="/disclaimer">Disclaimer</Link>
+                        </li>
+                        <li>
+                            <Link href="/refund-policy">Refund Policy</Link>
+                        </li>
+                        <li>
+                            <Link href="/accessibility-statement">
+                                Accessibility Statement
+                            </Link>
                         </li>
                     </ul>
                 </div>

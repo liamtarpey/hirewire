@@ -9,7 +9,7 @@ const colors = {
     midgrey: "#e8e8e8",
     darkgrey: "rgb(66, 84, 102)",
     blue: "#004AAD",
-    turquoise: "#5CE1E6",
+    turquoise: "#276b6d",
     purple: "#635E87",
     yellow: "#CFCAA8",
 };
