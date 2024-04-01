@@ -38,9 +38,9 @@ export interface FlexProps {
     /** flex-direction */
     direction?: DirectionType | DirectionType[];
     /** justify-content */
-    $justify?: JustifyType | JustifyType[];
+    justify?: JustifyType | JustifyType[];
     /** align-items */
-    $align?: AlignType | AlignType[];
+    align?: AlignType | AlignType[];
     /** flex */
     flexValue?: FlexValueType;
     /** full width */

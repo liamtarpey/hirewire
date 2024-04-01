@@ -38,8 +38,8 @@ export default async function JobOpenings() {
         <PageWrap $limit="md">
             <h2>Latest Job Openings</h2>
             <StyledJobOpenings
-                $align="stretch"
-                $justify="start"
+                align="stretch"
+                justify="start"
                 gap={'20px'}
                 flexwrap="wrap"
             >

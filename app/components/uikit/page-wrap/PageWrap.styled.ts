@@ -1,13 +1,14 @@
+'use client';
+
 import styled from 'styled-components';
-import {NAV_FIXED_HEIGHT} from '../../nav/Nav';
 
 const getLimit = (size: string) => {
     if (size === 'sm') {
-        return '720px';
+        return '960px';
     } else if (size === 'md') {
-        return '840px';
-    } else {
         return '1200px';
+    } else {
+        return '1600px';
     }
 }
 

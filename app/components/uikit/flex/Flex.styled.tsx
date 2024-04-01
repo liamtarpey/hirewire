@@ -1,3 +1,5 @@
+'use client';
+
 import styled from 'styled-components';
 import { FlexProps } from './Flex.interface';
 
@@ -53,8 +55,8 @@ export const Flex = styled('div')<FlexProps>`
         theme: { breakpoints },
         display = 'flex',
         direction = 'row',
-        $justify = 'flex-start',
-        $align = 'stretch',
+        justify = 'flex-start',
+        align = 'stretch',
         flexValue,
         flexwrap,
         height,
@@ -66,8 +68,8 @@ export const Flex = styled('div')<FlexProps>`
     }) => `
         ${setStyles(display, 'display', breakpoints)}
         ${setStyles(direction, 'flex-direction', breakpoints)}
-        ${setStyles($justify, 'justify-content', breakpoints)}
-        ${setStyles($align, 'align-items', breakpoints)}
+        ${setStyles(justify, 'justify-content', breakpoints)}
+        ${setStyles(align, 'align-items', breakpoints)}
         ${gap ? setStyles(gap, 'gap', breakpoints) : ''}
         ${maxWidth ? setStyles(maxWidth, 'max-width', breakpoints) : ''};
         ${center ? setCenter() : ''}

@@ -17,11 +17,11 @@ export const NAV_FIXED_HEIGHT = '74';
 export default function Nav() {
     return (
         <StyledNav>
-            <PageWrap>
-                <Flex $align="center" $justify="start">
+            <PageWrap $limit="md">
+                <Flex align="center" justify="start">
                     <StyledLogo>
                         <Link href="/">
-                            <Flex $align="center" $justify="start">
+                            <Flex align="center" justify="start">
                                 <Image
                                     priority
                                     src="/logos/hirewire-logo.png"

@@ -1,3 +1,5 @@
+'use client';
+
 import styled from 'styled-components';
 import { NAV_FIXED_HEIGHT } from '../../nav/Nav';
 
