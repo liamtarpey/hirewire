@@ -10,11 +10,14 @@ export default function AccessibilityStatement() {
                 <PageContainer>
                     <RichText>
                         <h1>Accessibility Statement</h1>
+
                         <p>
                             Hirewire Ltd is committed to ensuring that our
                             website is accessible to everyone, including people
                             with disabilities. We strive to maintain a
-                            Lighthouse score of 100 for accessibility.
+                            Lighthouse score of 100 for accessibility, which
+                            complies with the Web Content Accessibility
+                            Guidelines (WCAG) 2.1 Level AA standards.
                         </p>
 
                         <h2>Accessibility Features</h2>
@@ -37,9 +40,9 @@ export default function AccessibilityStatement() {
                             We welcome feedback on the accessibility of our
                             website. If you encounter any accessibility barriers
                             or have suggestions for improvement, please contact
-                            us at <ContactUsEmailLink />. We are committed to
-                            making continuous improvements to ensure our website
-                            is accessible to all users.
+                            us at [your contact information]. We are committed
+                            to making continuous improvements to ensure our
+                            website is accessible to all users.
                         </p>
 
                         <p>Last updated: 01 April 2024.</p>
