@@ -8,6 +8,7 @@ export const StyledNav = styled.nav`
     right: 0;
     background-color: ${colors.white};
     border-bottom: 4px solid ${colors.yellow};
+    z-index: 9999999;
     img {
       display: block;
       width: 150px;

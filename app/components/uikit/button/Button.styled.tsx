@@ -2,7 +2,7 @@
 
 import styled from 'styled-components';
 
-const SHARED_STYLES = `
+export const SHARED_STYLES = `
     background-color: transparent;
     border-width: 0;
     font-family: inherit;

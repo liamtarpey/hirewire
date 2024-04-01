@@ -32,7 +32,7 @@ type FlexWrapType = 'nowrap' | 'wrap' | 'wrap-reverse';
 
 export interface FlexProps {
     /** React Children */
-    children: React.ReactNode;
+    children?: React.ReactNode;
     /** display */
     display?: DisplayType | DisplayType[];
     /** flex-direction */
@@ -59,4 +59,6 @@ export interface FlexProps {
     maxWidth?: string | string[];
     /** onClick handler */
     onClick?: (event?: React.MouseEvent<HTMLElement>) => void;
+    /** ID */
+    id?: string;
 }
