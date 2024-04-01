@@ -40,9 +40,9 @@ export default function AccessibilityStatement() {
                             We welcome feedback on the accessibility of our
                             website. If you encounter any accessibility barriers
                             or have suggestions for improvement, please contact
-                            us at [your contact information]. We are committed
-                            to making continuous improvements to ensure our
-                            website is accessible to all users.
+                            us at <ContactUsEmailLink /> We are committed to
+                            making continuous improvements to ensure our website
+                            is accessible to all users.
                         </p>
 
                         <p>Last updated: 01 April 2024.</p>
